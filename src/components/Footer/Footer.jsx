@@ -9,13 +9,13 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>varishvalleti@gmail.com</span>
+        <span>varishvalleti52@gmail.com</span>
         <div className="f-icons">
-          <a href=""><Insta color="white" size={"3rem"} /></a>
-          <a href="">
+          <a href="https://www.instagram.com/valleti_varish/"><Insta color="white" size={"3rem"} /></a>
+          <a href="https://wa.me/918919504427">
           <Whatsapp color="white" size={"3rem"} />
           </a>
-         <a href="">
+         <a href="https://github.com/valletivarish">
          <Github color="white" size={"3rem"} />
          </a>
         </div>

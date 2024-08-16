@@ -12,8 +12,8 @@ const darkMode=theme.state.darkMode;
         e.preventDefault();
     
         emailjs
-          .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-            publicKey: 'YOUR_PUBLIC_KEY',
+          .sendForm('service_iolts86', 'template_gg2dua5', form.current, {
+            publicKey: 'DPD-uyi93SwRo4M6X',
           })
           .then(
             () => {
@@ -27,7 +27,6 @@ const darkMode=theme.state.darkMode;
       };
     return (
         <div className="contact-form" id="contact">
-          {/* left side copy and paste from work section */}
           <div className="w-left">
             <div className="awesome">
                 <span style={{color:darkMode?'white':''}}>Get in Touch</span>
@@ -38,7 +37,6 @@ const darkMode=theme.state.darkMode;
               ></div>
             </div>
           </div>
-          {/* right side form */}
           <div className="c-right">
             <form ref={form} onSubmit={sendEmail}>
               <input type="text" name="user_name" className="user"  placeholder="Name"/>
