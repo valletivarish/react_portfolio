@@ -12,8 +12,8 @@ const darkMode=theme.state.darkMode;
         e.preventDefault();
     
         emailjs
-          .sendForm('service_iolts86', 'template_gg2dua5', form.current, {
-            publicKey: 'DPD-uyi93SwRo4M6X',
+          .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
+            publicKey: 'YOUR_PUBLIC_KEY',
           })
           .then(
             () => {
